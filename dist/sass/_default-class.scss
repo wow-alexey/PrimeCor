@@ -1,0 +1,57 @@
+body {
+  font-size: 18px;
+  background: $standartBg;
+}
+
+header, main, footer {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: $standartBlueColor;
+}
+
+footer {
+  background: $footerBg;
+}
+
+.container {
+  margin: 0 17.06%;
+}
+
+h2 {
+  font-family: 'EuropeNormal';
+  color: $standartBlackFont;
+  font-size: 30px; /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h4 {
+  font-family: 'EuropeNormal';
+  color: $standartBlackFont;
+  font-size: 24px;
+}
+
+input {
+  outline: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+button, input[type=submit]{
+  cursor: pointer;
+  &:hover {
+    background-color: $hoverButton;
+  }
+}
